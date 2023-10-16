@@ -43,18 +43,19 @@ async function scrapeMovies(city) {
 
 // Function to generate HTML response
 function generateHTML(city, movies) {
+  const host = process.env.HOST;
   return `<html>
     <head>
       <title>Movie Shows</title>
     </head>
     <body>
       <ul>
-        <li><a href="http://localhost:3000/rajkot">Rajkot</a></li>
-        <li><a href="http://localhost:3000/ahmedabad">Ahmedabad</a></li>
-        <li><a href="http://localhost:3000/surat">Surat</a></li>
-        <li><a href="http://localhost:3000/vadodara">Vadodara</a></li>
-        <li><a href="http://localhost:3000/mumbai">Mumbai</a></li>
-        <li><a href="http://localhost:3000/anand">Anand</a></li>
+      <li><a href="${host}/rajkot">Rajkot</a></li>
+      <li><a href="${host}/ahemdabad">Ahemdabad</a></li>
+      <li><a href="${host}/vadodara">Vadodara</a></li>
+      <li><a href="${host}/surat">Surat</a></li>
+      <li><a href="${host}/mumbai">Mumbai</a></li>
+      <li><a href="${host}/anand">Anand</a></li>
       </ul>
       <h1>Movie List ${city}</h1>
       <ul>
