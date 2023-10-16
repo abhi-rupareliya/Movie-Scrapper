@@ -51,7 +51,7 @@ function generateHTML(city, movies) {
     <body>
       <ul>
       <li><a href="/rajkot">Rajkot</a></li>
-      <li><a href="/ahemdabad">Ahemdabad</a></li>
+      <li><a href="/ahmedabad">Ahmedabad</a></li>
       <li><a href="/vadodara">Vadodara</a></li>
       <li><a href="/surat">Surat</a></li>
       <li><a href="/mumbai">Mumbai</a></li>
