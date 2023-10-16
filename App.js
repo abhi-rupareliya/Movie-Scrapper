@@ -50,12 +50,12 @@ function generateHTML(city, movies) {
     </head>
     <body>
       <ul>
-      <li><a href="${host}/rajkot">Rajkot</a></li>
-      <li><a href="${host}/ahemdabad">Ahemdabad</a></li>
-      <li><a href="${host}/vadodara">Vadodara</a></li>
-      <li><a href="${host}/surat">Surat</a></li>
-      <li><a href="${host}/mumbai">Mumbai</a></li>
-      <li><a href="${host}/anand">Anand</a></li>
+      <li><a href=host+"/rajkot">Rajkot</a></li>
+      <li><a href=host+"/ahemdabad">Ahemdabad</a></li>
+      <li><a href=host+"/vadodara">Vadodara</a></li>
+      <li><a href=host+"/surat">Surat</a></li>
+      <li><a href=host+"/mumbai">Mumbai</a></li>
+      <li><a href=host+"/anand">Anand</a></li>
       </ul>
       <h1>Movie List ${city}</h1>
       <ul>
